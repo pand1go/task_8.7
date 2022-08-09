@@ -2,3 +2,6 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+body {
+    background-repeat: no-repeat;
+}
