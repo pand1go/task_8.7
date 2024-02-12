@@ -5,3 +5,26 @@
 body {
     background-repeat: no-repeat;
 }
+
+#questionField {
+    display: inline-block;
+}
+
+.btn-answer {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+@media (max-width: 1000px) {
+    .btn-answer { flex-direction: column; }
+}
+
+.hidden {
+    display: none;
+}
